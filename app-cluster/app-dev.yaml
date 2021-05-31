@@ -4,10 +4,10 @@ metadata:
   name: app-dev
   namespace: flux-system
 spec:
-  healthChecks:
-  - kind: Deployment
-    name: nginx-deployment-dev
-    namespace: dev
+  # healthChecks:
+  # - kind: Deployment
+  #   name: nginx-deployment-dev
+  #   namespace: dev
   interval: 1m0s
   path: ./APP/overlay
   prune: true
