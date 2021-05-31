@@ -9,7 +9,7 @@ spec:
   #   name: nginx-deployment-dev
   #   namespace: dev
   interval: 1m0s
-  path: ./APP/overlay
+  path: ./APP/overlay/
   prune: true
   sourceRef:
     kind: GitRepository
