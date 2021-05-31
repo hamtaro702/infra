@@ -7,9 +7,9 @@ spec:
   type: slack
   channel: testdevops
   # webhook address (ignored if secretRef is specified)
-  address: aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDAyMUJCTkZSVUovQjAyM1BRVjhKQkUvT3Nldk5qMFBURlU4TE9YeGNmdmVlSTlhCg==
+  # address: aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDAyMUJCTkZSVUovQjAyM1BRVjhKQkUvT3Nldk5qMFBURlU4TE9YeGNmdmVlSTlhCg==
   # HTTP(S) proxy (optional)
   # proxy: https://proxy.corp:8080
   # # secret containing the webhook address (optional)
-  # secretRef:
-  #   name: webhook-url
+  secretRef:
+    name: webhook-url
