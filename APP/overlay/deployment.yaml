@@ -5,9 +5,9 @@ metadata:
     app: nginx
   name: nginx-deployment
 spec:
-  replicas: 3
+  replicas: 5
   template:
     spec:
       containers:
-      - image: nginx:1.14.2
+      - image: nginx:1.14.1
         name: nginx
