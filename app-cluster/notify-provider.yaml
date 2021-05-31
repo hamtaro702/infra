@@ -7,7 +7,7 @@ spec:
   type: slack
   channel: testdevops
   # webhook address (ignored if secretRef is specified)
-  address: https://hooks.slack.com/services/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
+  address: https://hooks.slack.com/services/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
   # HTTP(S) proxy (optional)
   # # secret containing the webhook address (optional)
   # secretRef:
